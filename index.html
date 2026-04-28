@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawbase Shop - Keperluan Anabul Estetik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bg-soft-gradient {
+            background: linear-gradient(135deg, #EBF4FF 0%, #FFF5F7 100%);
+        }
+        /* Custom warna agar mudah dipanggil */
+        .text-pawbase-blue { color: #1E3A8A; } /* blue-900 */
+        .bg-pawbase-pink { background-color: #F9A8D4; } /* pink-300 */
+    </style>
+</head>
+<body class="bg-soft-gradient min-h-screen text-gray-700">
+
+    <nav class="flex justify-between items-center px-6 py-5 max-w-7xl mx-auto bg-white/50 backdrop-blur-sm sticky top-0 z-50 rounded-b-2xl shadow-sm">
+        <div class="flex items-center space-x-2">
+            <div class="w-10 h-10 bg-pink-300 rounded-full flex items-center justify-center shadow-sm">
+                <span class="text-white text-xl">🛍️</span>
+            </div>
+            <h1 class="text-2xl font-extrabold text-blue-900 tracking-tight">Pawbase<span class="text-pink-500">Shop</span></h1>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+            <a href="#" class="hover:text-pink-400 transition">Kategori</a>
+            <a href="#" class="hover:text-pink-400 transition">Produk Baru</a>
+            <a href="#" class="hover:text-pink-400 transition">Promo</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <button class="relative text-gray-500 hover:text-pink-500">
+                <span class="text-2xl">🛒</span>
+                <span class="absolute -top-2 -right-2 bg-pink-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">3</span>
+            </button>
+            <button class="bg-blue-400 hover:bg-blue-500 text-white px-5 py-2.5 rounded-full font-semibold shadow-md transition text-sm">
+                Masuk
+            </button>
+        </div>
+    </nav>
+
+    <header class="text-center py-20 px-6 bg-white/30 rounded-3xl my-6 max-w-7xl mx-auto border border-white/50 shadow-inner">
+        <span class="bg-white/70 text-blue-600 px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-widest shadow-sm border border-blue-100">
+            Perlengkapan Anabul Premium
+        </span>
+        <h2 class="text-5xl md:text-6xl font-extrabold mt-6 text-blue-900 leading-tight tracking-tighter">
+            Gaya & Kenyamanan <br> buat <span class="text-pink-400">Anabul Kamu</span>.
+        </h2>
+        <p class="mt-6 text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+            Temukan koleksi aksesoris estetik, makanan sehat, dan mainan seru yang dipilih khusus untuk kebahagiaan hewan kesayanganmu.
+        </p>
+        <div class="mt-10">
+            <button class="bg-pink-400 hover:bg-pink-500 text-white px-10 py-4 rounded-2xl font-bold shadow-xl transition transform hover:scale-105 text-lg">
+                Mulai Belanja ✨
+            </button>
+        </div>
+    </header>
+
+    <section class="px-6 py-10 max-w-7xl mx-auto">
+        <h3 class="text-3xl font-extrabold text-blue-900 mb-8 tracking-tight">Kategori Terpopuler</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 text-center hover:shadow-lg transition cursor-pointer">
+                <div class="text-5xl mb-4">🧣</div>
+                <p class="font-semibold text-blue-900">Aksesoris</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 text-center hover:shadow-lg transition cursor-pointer">
+                <div class="text-5xl mb-4">🍖</div>
+                <p class="font-semibold text-blue-900">Makanan</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 text-center hover:shadow-lg transition cursor-pointer">
+                <div class="text-5xl mb-4">🧶</div>
+                <p class="font-semibold text-blue-900">Mainan</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100 text-center hover:shadow-lg transition cursor-pointer">
+                <div class="text-5xl mb-4">🛏️</div>
+                <p class="font-semibold text-blue-900">Tempat Tidur</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-6 py-12 max-w-7xl mx-auto">
+        <div class="flex justify-between items-center mb-10">
+            <h3 class="text-3xl font-extrabold text-blue-900 tracking-tight">Produk Pilihan</h3>
+            <a href="#" class="text-pink-500 font-medium hover:text-pink-600 transition">Lihat Semua →</a>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-5 rounded-3xl shadow-xl border border-gray-100 group transition hover:shadow-2xl">
+                <div class="bg-gray-100 h-52 rounded-2xl mb-5 flex items-center justify-center text-6xl group-hover:scale-105 transition">🐱</div>
+                <span class="text-xs bg-blue-100 text-blue-600 px-3 py-1 rounded-full font-bold">AKSESORIS</span>
+                <h4 class="font-bold text-lg text-blue-900 mt-3 mb-1">Kalung Kucing Estetik</h4>
+                <p class="text-sm text-gray-500 mb-4">Bahan lembut dengan liontin paw lucu.</p>
+                <div class="flex justify-between items-center mt-auto">
+                    <p class="text-xl font-extrabold text-pink-500">Rp 45.000</p>
+                    <button class="bg-blue-100 hover:bg-blue-200 text-blue-700 w-10 h-10 rounded-full font-bold text-lg">+</button>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-3xl shadow-xl border border-gray-100 group transition hover:shadow-2xl">
+                <div class="bg-gray-100 h-52 rounded-2xl mb-5 flex items-center justify-center text-6xl group-hover:scale-105 transition">🐶</div>
+                <span class="text-xs bg-pink-100 text-pink-600 px-3 py-1 rounded-full font-bold">MAKANAN</span>
+                <h4 class="font-bold text-lg text-blue-900 mt-3 mb-1">Snack Anjing Organik</h4>
+                <p class="text-sm text-gray-500 mb-4">Rasa Daging Sapi, tanpa pengawet.</p>
+                <div class="flex justify-between items-center mt-auto">
+                    <p class="text-xl font-extrabold text-pink-500">Rp 75.000</p>
+                    <button class="bg-blue-100 hover:bg-blue-200 text-blue-700 w-10 h-10 rounded-full font-bold text-lg">+</button>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-3xl shadow-xl border border-gray-100 group transition hover:shadow-2xl">
+                <div class="bg-gray-100 h-52 rounded-2xl mb-5 flex items-center justify-center text-6xl group-hover:scale-105 transition">🎾</div>
+                <span class="text-xs bg-purple-100 text-purple-600 px-3 py-1 rounded-full font-bold">MAINAN</span>
+                <h4 class="font-bold text-lg text-blue-900 mt-3 mb-1">Bola Mainan Interaktif</h4>
+                <p class="text-sm text-gray-500 mb-4">Bisa berputar sendiri, anti stres.</p>
+                <div class="flex justify-between items-center mt-auto">
+                    <p class="text-xl font-extrabold text-pink-500">Rp 120.000</p>
+                    <button class="bg-blue-100 hover:bg-blue-200 text-blue-700 w-10 h-10 rounded-full font-bold text-lg">+</button>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-3xl shadow-xl border border-gray-100 group transition hover:shadow-2xl">
+                <div class="bg-gray-100 h-52 rounded-2xl mb-5 flex items-center justify-center text-6xl group-hover:scale-105 transition">🎀</div>
+                <span class="text-xs bg-blue-100 text-blue-600 px-3 py-1 rounded-full font-bold">AKSESORIS</span>
+                <h4 class="font-bold text-lg text-blue-900 mt-3 mb-1">Pita Rambut Anabul</h4>
+                <p class="text-sm text-gray-500 mb-4">Set isi 5 warna pastel yang imut.</p>
+                <div class="flex justify-between items-center mt-auto">
+                    <p class="text-xl font-extrabold text-pink-500">Rp 30.000</p>
+                    <button class="bg-blue-100 hover:bg-blue-200 text-blue-700 w-10 h-10 rounded-full font-bold text-lg">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-12 text-gray-400 text-sm border-t border-gray-100 mt-16 bg-white/20">
+        <div class="flex justify-center items-center space-x-2 mb-4">
+             <div class="w-8 h-8 bg-pink-200 rounded-full flex items-center justify-center text-white">🐾http://googleusercontent.com/image_generation_content/1
